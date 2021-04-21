@@ -15,5 +15,11 @@ public class SeleniumTest {
 	{
 		System.out.println("Validate WebElements");
 	}
+	
+	@Test
+	public void teardown()
+	{
+		System.out.println("Closing browser");
+	}
 
 }
